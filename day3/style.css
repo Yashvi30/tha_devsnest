@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  /* border: 0.1px solid red; */
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+.container {
+  flex: 50%;
+  padding: 10px;
+}
+.container:first-child {
+  border-right: 1px solid gray;
+}
+.container:last-child {
+  padding-left: 20px;
+  border-left: 1px solid gray;
+}
+h4 {
+  text-align: center;
+  margin: 7px;
+}
+/* .vertical { not automatic
+  border-left: 2px solid rgb(83, 82, 82);
+  height: 430px;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  padding: 0px;
+} */
+legend {
+  text-align: center;
+  padding: 0px;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+}
