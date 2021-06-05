@@ -46,7 +46,7 @@ body {
   width: 1vh;
   transform-origin: bottom;
   background: rgb(231, 226, 226);
-  animation: sec_anim 86400s linear infinite;
+  animation: sec_anim 43200s linear infinite;
 }
 @keyframes sec_anim {
   from {
