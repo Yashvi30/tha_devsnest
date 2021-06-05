@@ -22,7 +22,7 @@ body {
   width: 1vh;
   transform-origin: bottom;
   background: rgb(226, 223, 223);
-  animation: sec_anim 60s linear infinite;
+  animation: sec_anim 60s steps(60, end) infinite;
 }
 .min {
   position: absolute;
@@ -34,7 +34,7 @@ body {
   width: 1vh;
   transform-origin: bottom;
   background: rgb(224, 223, 223);
-  animation: sec_anim 600s linear infinite;
+  animation: sec_anim 3600s linear infinite;
 }
 .hour {
   position: absolute;
@@ -46,7 +46,7 @@ body {
   width: 1vh;
   transform-origin: bottom;
   background: rgb(231, 226, 226);
-  animation: sec_anim 60000s linear infinite;
+  animation: sec_anim 86400s linear infinite;
 }
 @keyframes sec_anim {
   from {
