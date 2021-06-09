@@ -1,22 +1,24 @@
 body {
   background-image: url("https://www.wanderingowl.com/wp-content/uploads/2020/09/blog_images_aurora_sunset_love.jpg");
   background-repeat: no-repeat;
+  margin: 0%;
   background-size: 100%;
   display: flex;
   background-color: #000000;
   justify-content: center;
   align-items: center;
-  margin-left: 10%;
-  height: 95vh;
-  width: 165vh;
+  height: 100vh;
+  width: 215vh;
 }
+/* "https://images.unsplash.com/photo-1502512977010-b821981050d1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" */
+/*  */
 /* "https://wallpaperaccess.com/full/347295.jpg" */
 /*"https://secondcropcreative.com/perfectloops/images/aurora-borealis-loop5.gif"  */
 .container {
   background: rgba(255, 255, 255, 0.05);
   border-radius: 6px;
-  height: 80%;
-  width: 30%;
+  height: 76%;
+  width: 23%;
   overflow: hidden;
   backdrop-filter: blur(5px);
   /* filter: blur(100%); */
@@ -25,6 +27,7 @@ body {
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
 }
 input[type="button"] {
+  cursor: pointer;
   padding: 15%;
   font-size: 100%;
   background: transparent;
