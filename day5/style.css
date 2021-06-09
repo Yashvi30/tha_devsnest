@@ -1,0 +1,71 @@
+body {
+  background-image: url("https://www.wanderingowl.com/wp-content/uploads/2020/09/blog_images_aurora_sunset_love.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  height: 95vh;
+  width: 165vh;
+}
+/* "https://wallpaperaccess.com/full/347295.jpg" */
+/*"https://secondcropcreative.com/perfectloops/images/aurora-borealis-loop5.gif"  */
+.container {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  height: 80%;
+  width: 30%;
+  overflow: hidden;
+  backdrop-filter: blur(5px);
+  /* filter: blur(100%); */
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+input[type="button"] {
+  padding: 15%;
+  font-size: 100%;
+  background: transparent;
+  height: 10vh;
+  width: 12vh;
+  color: white;
+  border: none;
+  place-items: center;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+input[type="button"]:focus {
+  outline: none;
+}
+input[type="button"]:active {
+  backdrop-filter: blur(35px);
+  font-size: 80%;
+}
+
+input[type="text"] {
+  text-align: right;
+  padding: 10px;
+  font-size: 10vh;
+  color: white;
+  background: transparent;
+  border: none;
+  width: max-content;
+  height: 20vh;
+  width: 45vh;
+}
+input[type="button"]:hover {
+  backdrop-filter: blur(25px);
+  box-shadow: gray;
+}
+
+#equalto {
+  width: 100%;
+}
+
+td {
+  transform: translateZ(20px);
+  padding: 0%;
+}
