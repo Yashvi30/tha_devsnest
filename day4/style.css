@@ -22,7 +22,7 @@ body {
   width: 1vh;
   transform-origin: bottom;
   background: rgb(226, 223, 223);
-  animation: sec_anim 60s steps(60, end) infinite;
+  animation: sec_anim 60s linear infinite;
 }
 .min {
   position: absolute;
