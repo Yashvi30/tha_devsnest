@@ -25,9 +25,9 @@ let library = [
 ];
 for (let i = 0; i < library.length; i++) {
   if (library[i].readingStatus) {
-    console.log("Reading ");
+    console.log("Read ");
   } else {
-    console.log("Not reading ");
+    console.log("Not read");
   }
 }
 
