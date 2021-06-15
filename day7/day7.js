@@ -33,6 +33,7 @@ for (let i = 0; i < library.length; i++) {
 
 //5. Write a JavaScript program to get the volume of a Cylinder with four decimal places using object classes.
 //Volume of a cylinder : V = πr2h where r is the radius and h is the height of the cylinder.
+const pi = 3.14;
 
 //6. Write a JavaScript program to sort an array of JavaScript objects.
 var library1 = [
@@ -44,3 +45,8 @@ var library1 = [
     libraryID: 3245,
   },
 ];
+console.log(
+  library1.sort(function (a, b) {
+    return a.libraryID - b.libraryID;
+  })
+);
