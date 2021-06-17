@@ -1,0 +1,42 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background: salmon;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  height: 600px;
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . ."
+    ". . . . . .";
+}
+.rectangle {
+  border: 1px solid salmon;
+  background: rgb(100, 37, 8);
+  height: 100px;
+  width: 200px;
+}
+
+.labels {
+  display: flex;
+}
+h2 {
+  width: 18vw;
+  padding: 7%;
+}
