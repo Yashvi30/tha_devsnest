@@ -11,3 +11,12 @@ addition.call(value2, 2, 3);
 const y = addition.bind(value1, 6, 8);
 console.log(y);
 y();
+
+//eventlisteners
+document.getElementById("event1").onclick = function () {
+  myFunction();
+};
+
+function myFunction() {
+  document.getElementById("event1").innerHTML = "YOU CLICKED ME!";
+}
