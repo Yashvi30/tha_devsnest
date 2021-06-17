@@ -15,7 +15,8 @@ Array.from(divs).forEach((div, i) => {
 
 Array.from(divs).forEach((div, i) => {
   div.addEventListener("click", () => {
-    div.style.background = div.style.background == "white" ? "red" : "white";
+    div.style.background =
+      div.style.background == "white" ? "rgb(223,53,53)" : "white";
     //on click it will turn red boxes white and white boxes red
   });
 });
