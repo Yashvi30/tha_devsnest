@@ -14,7 +14,6 @@ Array.from(divs).forEach((div, i) => {
 }); //turning all the leaves position white
 
 Array.from(divs).forEach((div, i) => {
-  if (leave.includes(i + 1)) div.style.background = "white";
   div.addEventListener("click", () => {
     div.style.background = div.style.background == "white" ? "red" : "white";
     //on click it will turn red boxes white and white boxes red
