@@ -32,6 +32,9 @@ body {
   height: 100px;
   width: 200px;
 }
+.active {
+  background: rgb(255, 255, 255);
+}
 .rectangle1 {
   background: white;
 }
