@@ -7,6 +7,6 @@ Array.from(rectangles).forEach((rectangle) => {
     else seats--;
     document.querySelector("#booked").innerHTML = "Booked Seats : " + seats;
     const remaining = (document.querySelector("#remaining").innerHTML =
-      36 - seats);
+      "Remaining Seats : " + (36 - seats));
   });
 });
