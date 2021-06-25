@@ -5,19 +5,19 @@ const questions = [
     options: ["Satoshi Nakamoto", "Elon musk", "Jeff Bezos", "Kim Jong-un"],
   },
   {
-    quest: "when was bitcoin created ?",
+    quest: "When was bitcoin created ?",
     answer: "0",
     options: ["2009", "2011", "2010", "2008"],
   },
   {
-    quest: "what is your name ?",
-    answer: "0",
-    options: ["Rajnikant", "Bheem", "Doraemon", "Ben 10"],
+    quest: "What is your name ?",
+    answer: "2",
+    options: ["Moon", "Orion", "Stars", "Comet"],
   },
   {
-    quest: "what song genre u like ?",
-    answer: "2",
-    options: ["Hip Hop", "Jazz", "Rock", "Dubstep"],
+    quest: "What song genre you like ?",
+    answer: "3",
+    options: ["Hip Hop", "Jazz", "Rock", "Who cares?"],
   },
 ];
 const ques = document.querySelector(".quest");
@@ -48,10 +48,9 @@ nxt.addEventListener("click", () => {
   opt[2].innerHTML = "c. " + question.options[2];
   opt[3].innerHTML = "d. " + question.options[3];
 });
-
 document.querySelectorAll("opt").forEach((item) => {
-  item.addEventListener("click", (event) => {
-    let val = document.querySelector("opt").value;
+  opt.addEventListener("click", () => {
+    let val = document.querySelector("opt");
     console.log(val);
     if (val) {
       let ans = item.getAttribute("id");
@@ -61,8 +60,6 @@ document.querySelectorAll("opt").forEach((item) => {
         score++;
         alert(`Correct answer. Your score is ${score}`);
       } else alert("Wrong answer");
-      // let inp = document.querySelector('input[name="option"]:checked')
-      // inp.setAttribute("value", "0")
     }
   });
 });
