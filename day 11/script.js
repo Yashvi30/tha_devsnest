@@ -11,7 +11,7 @@ const questions = [
   },
   {
     quest: "What is your name ?",
-    answer: "2",
+    answer: "1",
     options: ["Moon", "Orion", "Stars", "Comet"],
   },
   {
@@ -23,6 +23,7 @@ const questions = [
 const ques = document.querySelector(".quest");
 const opt = document.querySelectorAll(".opt");
 const nxt = document.querySelector(".next");
+
 let i = 0;
 let score = 0;
 // console.log(ques, btn, opt, opt[0])
@@ -48,18 +49,20 @@ nxt.addEventListener("click", () => {
   opt[2].innerHTML = "c. " + question.options[2];
   opt[3].innerHTML = "d. " + question.options[3];
 });
-document.querySelectorAll("opt").forEach((item) => {
-  opt.addEventListener("click", () => {
-    let val = document.querySelector("opt");
-    console.log(val);
-    if (val) {
-      let ans = item.getAttribute("id");
-      console.log(ans);
-      let question = questions[i];
-      if (question.answer === ans) {
-        score++;
-        alert(`Correct answer. Your score is ${score}`);
-      } else alert("Wrong answer");
-    }
+
+let y = document.getElementsByTagName("button");
+console.log(y);
+for (let j = 0; j < y.length - 1; j++) {
+  // Array.from(y).forEach((item) => {
+  let item = y[j];
+  item.addEventListener("click", () => {
+    let ans = item.getAttribute("id");
+    console.log(ans);
+    let question = questions[i];
+    if (question.answer === ans) {
+      score++;
+      alert(`Correct answer. Your score is ${score}`);
+    } else alert("Wrong answer");
   });
-});
+}
+// });
