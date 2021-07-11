@@ -1,6 +1,6 @@
 import "./App.css";
-import List from "./comps/List";
-import { data } from "./comps/Data";
+import List from "./components/List";
+import { data } from "./components/Data";
 import { useState } from "react";
 
 function App() {
