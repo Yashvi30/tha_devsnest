@@ -17,7 +17,6 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* margin: auto; */
 }
 
 h1.list {
@@ -32,19 +31,19 @@ h1.list {
   height: 350px;
   overflow-y: auto;
   box-shadow: 2px 3px 9px -1px #000;
-  background: #f2f2f2;
+  background: #ffffff;
 }
 
 .calorie-list .cards {
   padding: 15px 10px;
   margin: 10px 20px;
   transition: 0.3s;
-  border-bottom: 1px solid salmon;
+  border-bottom: 1px solid rgb(110, 106, 106);
   background-color: white;
 }
 
 .calorie-list .cards:hover {
-  border-left: 10px solid salmon;
+  background-color: rgb(25, 85, 119);
 }
 
 .calorie-list .empty {
