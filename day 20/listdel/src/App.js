@@ -1,7 +1,7 @@
 import "./App.css";
+import { useState } from "react";
 import List from "./list";
 import { data } from "./data";
-import { useState } from "react";
 
 function App() {
   console.log(data);
