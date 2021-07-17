@@ -55,13 +55,12 @@ h1.list {
 .calorie-list .cards .save-btn,
 .calorie-list .cards .edit-btn {
   cursor: pointer;
-  transition: 0.45s;
 }
 
 .calorie-list .cards .del-btn:hover,
 .calorie-list .cards .save-btn:hover,
 .calorie-list .cards .edit-btn:hover {
-  transform: scale(1.5);
+  background-color: grey;
 }
 
 .todo button {

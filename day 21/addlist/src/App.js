@@ -54,10 +54,7 @@ function App() {
             onChange={(e) => setCalorie(e.target.value)}
             required
           />
-          <button type="submit">
-            SUBMIT
-            {/* <img src={addIcon} alt="addIcon" /> */}
-          </button>
+          <button type="submit">SUBMIT</button>
         </form>
       </div>
       <div className="calorie-list">
