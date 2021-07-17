@@ -55,7 +55,8 @@ function App() {
             required
           />
           <button type="submit">
-            <img src={addIcon} alt="addIcon" />
+            SUBMIT
+            {/* <img src={addIcon} alt="addIcon" /> */}
           </button>
         </form>
       </div>
