@@ -32,12 +32,12 @@ h1.list {
   padding: 15px 10px;
   margin: 10px 20px;
   transition: 0.3s;
-  border-bottom: 1px solid salmon;
+  border-bottom: 1px solid rgb(131, 131, 131);
   background-color: white;
 }
 
 .calorie-list .cards:hover {
-  border-left: 10px solid salmon;
+  background-color: rgb(14, 143, 143);
 }
 
 .calorie-list .empty {
