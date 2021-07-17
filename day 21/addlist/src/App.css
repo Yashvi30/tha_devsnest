@@ -64,8 +64,6 @@ h1.list {
 }
 
 .todo button {
-  height: 10px;
-  width: 30px;
   position: absolute;
 }
 
