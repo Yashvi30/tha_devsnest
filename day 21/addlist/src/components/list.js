@@ -1,7 +1,7 @@
 import { useState } from "react";
-import deleteIcon from "../assets/delete.svg";
-import editIcon from "../assets/edit.svg";
-import saveIcon from "../assets/save.svg";
+// import deleteIcon from "../assets/delete.svg";
+// import editIcon from "../assets/edit.svg";
+// import saveIcon from "../assets/save.svg";
 
 const List = ({ item, id, items, setItems }) => {
   const [isEditing, setIsEditing] = useState(false);
@@ -68,24 +68,30 @@ const List = ({ item, id, items, setItems }) => {
           )}
         </div>
         <div className="icons">
-          <img
+          <button
             className="edit-btn"
-            src={editIcon}
-            alt="editIcon"
+            // src={editIcon}
+            // alt="editIcon"
             onClick={(e) => setIsEditing(!isEditing)}
-          />
-          <img
+          >
+            EDIT
+          </button>
+          <button
             className="save-btn"
-            src={saveIcon}
-            alt="saveIcon"
+            // src={saveIcon}
+            // alt="saveIcon"
             onClick={(e) => saveItem()}
-          />
-          <img
+          >
+            SAVE
+          </button>
+          <button
             className="del-btn"
-            src={deleteIcon}
-            alt="deleteIcon"
+            // src={deleteIcon}
+            // alt="deleteIcon"
             onClick={(e) => deleteItem(id)}
-          />
+          >
+            DELETE
+          </button>
         </div>
       </div>
     </>
