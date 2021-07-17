@@ -5,12 +5,12 @@ import { useState } from "react";
 function App() {
   const [items, setItems] = useState([
     {
-      name: "Pizza",
-      calorie: 24,
+      name: "Chocolate",
+      calorie: 10,
     },
     {
-      name: "Momos",
-      calorie: 35,
+      name: "Ice-cream",
+      calorie: 30,
     },
   ]);
 
