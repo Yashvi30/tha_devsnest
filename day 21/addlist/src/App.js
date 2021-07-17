@@ -1,7 +1,6 @@
 import "./App.css";
 import List from "./components/list";
 import { useState } from "react";
-// import addIcon from "./assets/add.svg";
 
 function App() {
   const [items, setItems] = useState([
