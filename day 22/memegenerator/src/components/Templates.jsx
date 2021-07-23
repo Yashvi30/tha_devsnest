@@ -13,7 +13,6 @@ const Templates = ({ templates, setMeme }) => {
             style={{ backgroundImage: `url(${template.url})` }}
             className="image"
           ></div>
-          <p>{template.name}</p>
         </div>
       ))}
     </div>
