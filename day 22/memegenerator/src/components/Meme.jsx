@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { saveAs } from "file-saver";
 
 const Meme = ({ meme, setMeme }) => {
   // console.log(meme)
@@ -46,7 +45,7 @@ const Meme = ({ meme, setMeme }) => {
 
   // for download the current meme image
   const handleDownload = () => {
-    saveAs(`${meme.url}`, `${meme.name}.jpg`);
+    // saveAs(`${meme.url}`, `${meme.name}.jpg`);
   };
 
   return (
