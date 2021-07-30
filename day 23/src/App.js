@@ -37,7 +37,7 @@ function App() {
           <Route path="/contact">
             <Contact />
           </Route>
-          <Route render={() => <h1>Ooops... Page not found!!!</h1>}></Route>
+          <Route render={() => <h1> Page not found!!!</h1>}></Route>
         </Switch>
       </Router>
       <Footer />
