@@ -56,7 +56,7 @@ function App() {
             ))}
           </ul>
         ) : (
-          <p>Add Your Daily Task 😄...</p>
+          <p></p>
         )}
       </div>
     </div>
